@@ -1,0 +1,11 @@
+---
+globs: ['**/*']
+---
+
+# Locales 严格约束规则
+
+1. **禁止使用 @folder locales、@folders locales 指令**，任何场景不允许一次性读取整个locales目录
+2. 如需操作多语言文件，只能单独指定文件：@file locales/en.json @file locales/es.json
+3. 禁止AI自动扫描locales全目录、禁止主动加载未手动@file的locale文件
+4. 不读取.cursorignore屏蔽的语种JSON，只处理对话里明确列出的语言文件
+5. 输出仅返回变更片段，禁止输出完整locale大文件，减少token消耗

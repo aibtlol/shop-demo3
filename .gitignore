@@ -9,4 +9,13 @@ ehthumbs.db
 Thumbs.db
 .shopify
 node_modules
+.vscode
+.github
+.git
+axe-linter.yml
+# snippets/is-dev.liquid
+public/
 *.zip
+assets/theme-devtools.js
+snippets/theme-devtools-bridge.liquid
+package.sh

@@ -1,0 +1,11 @@
+# 所有locales json全部屏蔽
+locales/*.json
+# 只放开客户本次需要同步的语言，其余完全隔离
+!locales/zh-CN.schema.json
+!locales/ja.schema.json
+!locales/zh-TW.schema.json
+# !locales/fr.json
+# !locales/de.json
+
+# 归档废弃语种文件夹
+locales-archive/

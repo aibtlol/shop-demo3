@@ -1,0 +1,13 @@
+node_modules
+src
+package.json
+package-lock.json
+vite.config.js
+.git
+.gitignore
+snippets/is-dev.liquid
+public
+*.zip
+assets/theme-devtools.js
+snippets/theme-devtools-bridge.liquid
+package.sh

@@ -1,0 +1,6 @@
+{% assign is_dev_str = 'true' %}
+{% assign is_dev = false %}
+{%- if is_dev_str == 'true' -%}
+  {% assign is_dev = true %}
+{%- endif -%}
+{{ is_dev }}
