@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -29,33 +38,32 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "all",
+        "products_to_show": 8,
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,13 +71,77 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_V6AywY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ErxNBd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will my order take to arrive?",
+            "icon": "none",
+            "row_content": "<p>Standard shipping takes 7–12 business days. Expedited shipping arrives within 3–5 business days after dispatch.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8JNrdg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I cancel or modify my order?",
+            "icon": "none",
+            "row_content": "<p>Order changes or cancellation are allowed within 6 hours after purchase. Once shipped, we cannot adjust orders.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HLBbz3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "none",
+            "row_content": "<p>We accept returns within 30 days of delivery. Items must be unused and in original packaging. Buyer covers return shipping cost.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XJGnHP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my package?",
+            "icon": "none",
+            "row_content": "<p>A tracking link will be sent to your email once your item ships. You can also track orders via our Track Order page.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ErxNBd",
+        "collapsible_row_8JNrdg",
+        "collapsible_row_HLBbz3",
+        "collapsible_row_XJGnHP"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Questions?We have answers",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "collapsible_content_V6AywY"
   ]
 }

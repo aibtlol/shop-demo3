@@ -17,6 +17,6 @@
 /* 自定义组件 */
 @layer components {
   .btn-shop {
-    @apply tw:bg-[var(--color-shop-primary)] tw:text-white tw:px-6 tw:py-3 tw:rounded-lg;
+    @apply tw:bg-[var(--color-shop-primary)] tw:px-6 tw:py-3 tw:rounded-lg tw:text-white;
   }
 }
